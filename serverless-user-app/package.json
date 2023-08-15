@@ -12,11 +12,16 @@
     "lint:fix": "./node_modules/.bin/eslint --fix",
     "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "serverless",
+    "aws-typescript",
+    "serverless-api",
+    "lambda"
+  ],
+  "author": "Abeeb Raheem",
   "license": "ISC",
   "engines": {
-    "node": ">=14.15.0"
+    "node": ">=16.15.0"
   },
   "dependencies": {
     "-": "^0.0.1",
