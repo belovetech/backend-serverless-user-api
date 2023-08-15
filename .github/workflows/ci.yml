@@ -39,8 +39,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           cache: "npm"
 
-      - name: Run build if present
-        run: npm run build --if-present
+      - name: Install Dependencies
+        run: npm install
 
       - name: Run tests
         run: npm test
