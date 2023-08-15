@@ -27,6 +27,7 @@
     "-": "^0.0.1",
     "@middy/core": "^4.6.0",
     "@middy/http-json-body-parser": "^4.6.0",
+    "aws-sdk": "^2.1436.0",
     "dotenv": "^16.3.1",
     "serverless-dynamodb-local": "^0.2.40"
   },
@@ -35,7 +36,7 @@
     "@types/aws-lambda": "^8.10.119",
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
-    "@types/node": "^20.4.9",
+    "@types/node": "^20.5.0",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
     "@typescript-eslint/parser": "^6.3.0",
     "eslint": "^8.46.0",

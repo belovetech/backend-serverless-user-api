@@ -16,8 +16,8 @@ Follow these steps to set up and run the project on your local machine:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/belovetech/backend-serverless-api/tree/main/serverless-user-app
-   cd aws-serverless-user-app-api
+   git clone https://github.com/belovetech/backend-serverless-api/tree/main/serverless-user-api
+   cd aws-serverless-user-api
    ```
 
 2. Install dependencies:
