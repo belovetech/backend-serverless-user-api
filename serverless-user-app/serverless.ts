@@ -3,7 +3,7 @@ import { AWS } from "@serverless/typescript";
 import { ping } from "@functions/healthcheck";
 
 const serverlessConfiguration: AWS = {
-  service: "${env:SERVICE_NAME}",
+  service: "aws-serverless-user-app-api",
   frameworkVersion: "3",
   plugins: [
     "serverless-esbuild",
