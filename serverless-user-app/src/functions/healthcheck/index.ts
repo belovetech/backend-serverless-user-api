@@ -1,12 +1,13 @@
 import { handlerPath } from "@libs/handlerResolver";
 
-export const hello = {
-  handler: `${handlerPath(__dirname)}/handler.hello`,
+export const ping = {
+  handler: `${handlerPath(__dirname)}/handler.ping`,
   events: [
     {
       http: {
         method: "get",
-        path: "hello",
+        path: "healthcheck/ping",
+        cors: true,
       },
     },
   ],

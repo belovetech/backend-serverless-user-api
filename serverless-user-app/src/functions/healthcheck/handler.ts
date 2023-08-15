@@ -10,4 +10,4 @@ const handler = async (): Promise<APIGatewayProxyResult> => {
   }
 };
 
-export const hello = middyfy(handler);
+export const ping = middyfy(handler);
