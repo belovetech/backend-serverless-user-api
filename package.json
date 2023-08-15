@@ -4,7 +4,7 @@
   "description": "AWS Serverless user app api",
   "main": "serverless.ts",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --require ts-node/register tests/**/*.ts",
+    "test": "./node_modules/.bin/mocha --require ts-node/register src/tests/**/*.ts",
     "start": "./node_modules/.bin/serverless offline start --stage dev",
     "dev": "nodemon ./node_modules/.bin/serverless offline start --stage dev",
     "build": "./node_modules/.bin/serverless build --stage dev",
